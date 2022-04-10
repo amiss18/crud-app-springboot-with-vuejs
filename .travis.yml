@@ -1,0 +1,10 @@
+language: java
+jdk:
+  - openjdk11
+  - openjdk17
+os:
+  - linux
+  - osx
+
+script:
+  - ./mvnw clean install -B
